@@ -1,2 +1,2 @@
 # ballerina-aswsdk
-test of ballerina integration with AWS java ASD
+test of ballerina integration with AWS java SDK
