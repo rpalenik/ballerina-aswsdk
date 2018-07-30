@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="docerina-theme/img/favicon.ico">
+    <title>Ballerina - in2/crypto API Docs</title>
+    <script src="docerina-theme/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="docerina-theme/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="docerina-theme/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="docerina-theme/js/bootstrap.min.js"></script>
+    <!-- Nanoscroller JS -->
+    <script src="docerina-theme/js/jquery.nanoscroller.min.js"></script>
+    <!-- Docerina JS -->
+    <script src="docerina-theme/js/docerina.js"></script>
+    <script type="text/javascript" src="docerina-theme/js/highlight.pack.js"></script>
+    <link rel="stylesheet" href="docerina-theme/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="docerina-theme/css/theme_extra.css" type="text/css" />
+    <link rel="stylesheet" href="docerina-theme/css/highlight.css">
+    <script type="text/javascript" src="docerina-theme/js/ballerina-common.js"></script>
+    <link rel="stylesheet" href="docerina-theme/css/ballerina-io.css">
+    <link rel="stylesheet" href="docerina-theme/css/ballerina-io-docs.css">
+    <link rel="stylesheet" href="docerina-theme/css/ballerina-io-api.css">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if (typeof hljs === 'object') {
+                $('code.language-ballerina').addClass('ballerina');
+                hljs.initHighlighting();
+            }
+        });
+    </script>
+    <script>
+        var base_url = "";
+    </script>
+    <script src="/search/require.js"></script>
+</head>
+
+<body class="cBallerina-io" role="document">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSL2TX4"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="row cBallerina-io-top-row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"></div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cTopLineContainer">
+        <div class="cTopLine"></div>
+    </div>
+</div>
+<div class="row cBallerina-io-Logo-row">
+    <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cBallerina-io-Logo-Container">
+            <a class="cLogo" href="index.html">
+                <img src="docerina-theme/img/ballerina-logo.png" alt="Ballerina" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row cBallerina-io-Gray-row">
+    <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 cBallerina-io-Home-Left-col">
+            <div class="cBlallerina-io-docs-right-nav-container">
+                <div class="cLectColStyle cLeftColTop">
+                    <div class="cBallerina-io-docs-Title cBallerina-io-primitive-types">PRIMITIVE TYPES</div>
+                    <div class="cCollaps-Menu-first">
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#int">
+                                        <span class="bold">int</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#float">
+                                        <span class="bold">float</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#boolean">
+                                        <span class="bold">boolean</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#string">
+                                        <span class="bold">string</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#json">
+                                        <span class="bold">json</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#xml">
+                                        <span class="bold">xml</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#any">
+                                        <span class="bold">any</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#blob">
+                                        <span class="bold">blob</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#typedesc">
+                                        <span class="bold">typedesc</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#record">
+                                        <span class="bold">record</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#array">
+                                        <span class="bold">array</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#map">
+                                        <span class="bold">map</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#union">
+                                        <span class="bold">union</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#tuple">
+                                        <span class="bold">tuple</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#table">
+                                        <span class="bold">table</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#stream">
+                                        <span class="bold">stream</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#future">
+                                        <span class="bold">future</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                            <ul class="">
+                                <li>
+                                    <a href="primitive-types.html#function">
+                                        <span class="bold">function</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="cBlallerina-io-docs-right-nav-container">
+                <div class="cLectColStyle cLeftColTop">
+                    <div class="cBallerina-io-docs-Title cBallerina-io-packages">BALLERINA PACKAGES</div>
+
+                    <div class="cCollaps-Menu" id="iBallerinaPACKAGEStoc">
+
+                        
+                        <ul>
+                                <li class="cTableTitle">
+                                    <a href="crypto.html">
+                                        
+                                            in2/<span class="bold">crypto</span>
+                                        
+                                        
+                                    </a>
+                                </li>
+                        </ul>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="cBlallerina-io-docs-left-nav-container">
+                <div class="cSideBar-Button">
+                    <img src="docerina-theme/img/sidebar.svg" />
+                </div>
+                <div class="cLectColStyle">
+                    <div class="cBallerina-io-docs-Title">TABLE OF CONTENTS</div>
+                    
+                        <ul class=" active-package">
+                            <li>
+                                <!--Package Name-->
+                                 
+                                    <a class="cPackageList">in2/<span class="bold">crypto</span></a>  
+                                    <div class="constructs-wrapper">
+                                        <!--Construct of Package-->
+                                        <ul class="constructs-ul">
+                                            
+                                            
+                                                <li>
+                                                    <a href="#TypeDefinitions">
+                                                        <div class="construct-icon">
+                                                            <span class="fw-type"> </span>
+                                                        </div>
+                                                        <div class="construct-name">
+                                                            Type Definitions
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                                <li>
+                                                    <a href="#FunctionsSummary">
+                                                        <div class="construct-icon">
+                                                            <span class="fw-function"> </span>
+                                                        </div>
+                                                        <div class="construct-name">
+                                                            Functions
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            
+                                            
+                                                <li>
+                                                    <a href="#GlobalVariables">
+                                                        <div class="construct-icon">
+                                                            <span class="fw-globe"> </span>
+                                                        </div>
+                                                        <div class="construct-name">
+                                                            Global Variables
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            
+                                            
+                                                  
+                                                    <li>
+                                                        <a href="#hmac">
+                                                            <div class="construct-icon">
+                                                                <span class="fw-function"> </span>
+                                                            </div>
+                                                            <div class="construct-name">
+                                                                hmac 
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                        
+                                                   
+                                                   
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                        </ul>
+                                    </div>
+                                
+                            </li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9 cBallerina-io-Home-Middle-col">
+            <div class="cBlallerina-io-docs-content-container">
+                <div>
+                    <div>
+                        <div role="main">
+                            <div>
+                                <div id="content" class="nano">
+                                    <div class="nano-content">
+                                        <h1 class="thin-text padding-bottom">
+                                            <span class="bold">in2/crypto</span>  package 
+                                        </h1>
+                                        
+                                            <div class="cAPIdocsDescription">
+                                                <h2>Package Overview</h2>
+<p>This package provides the functionality required to generate HMAC with plain text or Base64 encoded key.</p>
+<p>Generating HMAC using plain text key:</p>
+<pre><code class="language-ballerina">import ballerina/io;
+import in2/crypto;
+
+function main(string[] args) {
+  string stringToSign = &quot;test&quot;;
+  string signingKey = &quot;test&quot;;
+
+  string result = crypto:hmac(stringToSign, signingKey, crypto:SHA256);
+  io:println(result);
+}
+</code></pre>
+<p>Generating HMAC using Base64 encoded key:</p>
+<pre><code class="language-ballerina">import ballerina/io;
+import in2/crypto;
+
+function main(string[] args) {
+  string stringToSign = &quot;test&quot;;
+  string signingKey = &quot;dGVzdA==&quot;;
+
+  string result = crypto:hmac(stringToSign, signingKey, crypto:SHA256, keyType = crypto:BASE64);
+  io:println(result);
+}
+</code></pre>
+
+                                            </div>
+                                        
+
+                                        <div class="summary-wrapper">
+                                            <!--Primitive Types-->
+                                            
+                                            <!-- Type Definitions-->
+                                            
+                                                <h2 id="TypeDefinitions">
+                                                    <span class="fw-type sm-icon"></span> Type Definitions
+                                                </h2>
+                                                <table class="cSummary-Table">
+                                                    <tr>
+                                                        <th class="cSummary-table-name">Type</th>
+                                                        <th class="cSummary-table-attach"></th>
+                                                        <th class="cSummary-table-type">Values</th>
+                                                        <th class="cSummary-table-desc">Description</th>
+                                                    </tr>
+                                                    
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">Algorithm</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type">SHA256 | SHA1 | MD5</td>
+                                                                <td class="cSummary-table-desc"><p>The hashing algorithms supported by this package.</p>
+</td>
+                                                            </tr>
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">KeyType</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type">TEXT | BASE64</td>
+                                                                <td class="cSummary-table-desc"><p>The key types supported by this package.</p>
+</td>
+                                                            </tr>
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                </table>
+                                            
+                                            <!-- Annotations -->
+                                            
+                                            <!-- records -->
+                                            
+                                            <!-- objects -->
+                                            
+                                            <!-- endpoints -->
+                                            
+                                            <!-- functions -->
+                                            
+                                                <h2 id="FunctionsSummary">
+                                                    <span class="fw-function sm-icon"></span> Functions Summary
+                                                </h2>
+                                                <table class="cSummary-Table">
+                                                    <tr>
+                                                        <th class="cSummary-table-name">Return Type</th>
+                                                        <th class="cSummary-table-attach"></th>
+                                                        <th class="cSummary-table-type"></th>
+                                                        <th class="cSummary-table-desc">Function and Description</th>
+                                                    </tr>
+                                                    
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">string</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type"></td>
+                                                                <td class="cSummary-table-desc"><a href="#hmac">hmac(string baseString, string keyString, MD5|SHA1|SHA256 algorithm, TEXT|BASE64 keyType)</a><br/><p>Returns the HMAC value of the provided base string.</p>
+</td>
+                                                            </tr>
+                                                        
+                                                    
+                                                        
+                                                    
+                                                        
+                                                    
+                                                        
+                                                    
+                                                        
+                                                    
+                                                        
+                                                    
+                                                        
+                                                    
+                                                        
+                                                    
+                                                </table>
+                                            
+                                            <!-- Global Variables-->
+                                            
+                                                <h2 id="GlobalVariables">
+                                                    <span class="fw-globe sm-icon"></span> Global Variables
+                                                </h2>
+                                                <table class="cSummary-Table">
+                                                    <tr>
+                                                        <th class="cSummary-table-name">Name</th>
+                                                        <th class="cSummary-table-attach"></th>
+                                                        <th class="cSummary-table-type">Data Type</th>
+                                                        <th class="cSummary-table-desc">Description</th>
+                                                    </tr>
+                                                    
+                                                          
+                                                          
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">BASE64</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type"><a href="crypto.html#KeyType">KeyType</a></td>
+                                                                <td class="cSummary-table-desc"><p>The <code>BASE64</code> key type</p>
+</td>
+                                                            </tr>
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">MD5</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type"><a href="crypto.html#Algorithm">Algorithm</a></td>
+                                                                <td class="cSummary-table-desc"><p>The <code>MD5</code> hashing algorithm</p>
+</td>
+                                                            </tr>
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">SHA1</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type"><a href="crypto.html#Algorithm">Algorithm</a></td>
+                                                                <td class="cSummary-table-desc"><p>The <code>SHA1</code> hashing algorithm&quot;</p>
+</td>
+                                                            </tr>
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">SHA256</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type"><a href="crypto.html#Algorithm">Algorithm</a></td>
+                                                                <td class="cSummary-table-desc"><p>The <code>SHA256</code> hashing algorithm</p>
+</td>
+                                                            </tr>
+                                                          
+                                                        
+                                                            <tr>
+                                                                <td class="cSummary-table-name">TEXT</td>
+                                                                <td class="cSummary-table-attach"></td>
+                                                                <td class="cSummary-table-type"><a href="crypto.html#KeyType">KeyType</a></td>
+                                                                <td class="cSummary-table-desc"><p>The <code>TEXT</code> key type</p>
+</td>
+                                                            </tr>
+                                                          
+                                                </table>
+                                            
+                                        </div>
+
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                    <h2 id="hmac">
+                                                        <span class="fw-function sm-icon"> </span> public function hmac(string baseString, string keyString, MD5|SHA1|SHA256 algorithm, TEXT|BASE64 keyType) returns (string) 
+                                                    </h2>
+                                                    
+                                                        <p>
+                                                            <span class="fw-right gray xs-icon"></span><p>Returns the HMAC value of the provided base string.</p>
+
+                                                        </p>
+                                                     
+                                                    <table>
+                                                        <tr>
+                                                            <th class="cAPI-table-name">Parameter Name</th>
+                                                            <th class="cAPI-table-type">Data Type</th>
+                                                            <th class="cAPI-table-default">Default Value</th>
+                                                            <th class="cAPI-table-desc">Description</th>
+                                                        </tr>
+                                                        
+                                                            <tr>
+                                                                <td class="cAPI-table-name">baseString</td>
+                                                                <td class="cAPI-table-type"><a href="primitive-types.html#string">string</a></td>
+                                                                <td class="cAPI-table-default"></td>
+                                                                <td class="cAPI-table-desc"><p>The string to be hashed</p>
+</td>
+                                                            </tr>
+                                                        
+                                                            <tr>
+                                                                <td class="cAPI-table-name">keyString</td>
+                                                                <td class="cAPI-table-type"><a href="primitive-types.html#string">string</a></td>
+                                                                <td class="cAPI-table-default"></td>
+                                                                <td class="cAPI-table-desc"><p>The key string</p>
+</td>
+                                                            </tr>
+                                                        
+                                                            <tr>
+                                                                <td class="cAPI-table-name">algorithm</td>
+                                                                <td class="cAPI-table-type"><a href="crypto.html#Algorithm">MD5</a>|SHA1|SHA256</td>
+                                                                <td class="cAPI-table-default"></td>
+                                                                <td class="cAPI-table-desc"><p>The hashing algorithm to be used</p>
+</td>
+                                                            </tr>
+                                                        
+                                                            <tr>
+                                                                <td class="cAPI-table-name">keyType</td>
+                                                                <td class="cAPI-table-type"><a href="crypto.html#KeyType">TEXT</a>|BASE64</td>
+                                                                <td class="cAPI-table-default">TEXT</td>
+                                                                <td class="cAPI-table-desc"><p>The key type to denote in what format key is</p>
+</td>
+                                                            </tr>
+                                                        
+                                                    </table>
+                                                 
+                                                    <div class="cReturnTableHeader"></div>
+                                                    <table>
+                                                        <tr>
+                                                            <th class="cAPI-table-name"></th>
+                                                            <th class="cAPI-table-type">Return Type</th>
+                                                            <th class="cAPI-table-default"></th>
+                                                            <th class="cAPI-table-desc">Description</th>
+                                                        </tr>
+                                                        
+                                                            <tr>
+                                                                <td class="cAPI-table-name"></td>
+                                                                <td class="cAPI-table-type"><a href="primitive-types.html#string">string</a></td>
+                                                                <td class="cAPI-table-default"></td>
+                                                                <td class="cAPI-table-desc"><p>The hashed string</p>
+</td>
+                                                            </tr>
+                                                        
+                                                    </table>
+                                                 
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                            <div class="construct-wrapper">
+                                                <!--Primitive Types-->
+                                                
+                                                <!-- Function -->
+                                                
+                                                <!-- Struct-binded functions grouped together -->
+                                                
+                                                <!-- Connectors and its actions -->
+                                                
+                                                <!-- Records -->
+                                                
+                                                <!-- Objects and its functions -->
+                                                
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>
