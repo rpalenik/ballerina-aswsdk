@@ -83,6 +83,8 @@ public class AmazonKinesisFirehoseDelivery {
             //throw new AmazonClientException("Cannot load the credentials from the credential profiles file. "
             //        + "Please make sure that your credentials file is at the correct "
             //        + "location (~/.aws/credentials), and is in valid format.", e);
+
+            // I have included this exception to see error message from ballerina
             throw new BallerinaException("Error initClients: " + e.getMessage());
         }
 
